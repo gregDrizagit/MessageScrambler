@@ -8,7 +8,7 @@ let spans = document.body.getElementsByTagName('span')
 
 Once I had all of the spans I looped over them and pulled the innerHTML for each element that had a hidden attribute.
 
-let messageString = ''
+let messageString = ""
 
  for(let i = 0; i < spans.length; i++){
   	if(spans[i].hasAttribute('hidden')){

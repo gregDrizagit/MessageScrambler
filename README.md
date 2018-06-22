@@ -1,5 +1,7 @@
 Hey Fuzz! 
 
+https://message-scrambler-greg-driza.herokuapp.com/
+
 I cracked the code! I figured out what the message was through inspecting the page elements. The first thing that I noticed is that each character was wrapped in a span and that some spans had a 'hidden' attribute. I manually deleted the first few hidden attributes and uncovered the word 'Elegantly'. I then got all elements from the dom with 
 
 let spans = document.body.getElementsByTagName('span')
